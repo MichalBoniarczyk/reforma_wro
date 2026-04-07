@@ -2,8 +2,8 @@ import clsx from "clsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { FC } from "react";
-
 import { AnimationClasses } from "@/utils/types/animation";
+
 
 type Props = {
     animationClasses?: AnimationClasses
