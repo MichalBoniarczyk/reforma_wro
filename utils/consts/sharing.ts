@@ -1,0 +1,5 @@
+export const SHARING_FACEBOOK = 'https://www.facebook.com/sharer/sharer.php?u=https://www.bnrflow.dev'
+export const SHARING_LINKEDIN = 'https://www.linkedin.com/sharing/share-offsite/?url=https://www.bnrflow.dev'
+export const SHARING_WHATSAPP = 'https://api.whatsapp.com/send?text=https://www.bnrflow.dev'
+export const SHARING_MESSENGER = 'fb-messenger://share?link=https://www.bnrflow.dev'
+export const SHARING_SMS = 'sms:?body=https://www.bnrflow.dev'

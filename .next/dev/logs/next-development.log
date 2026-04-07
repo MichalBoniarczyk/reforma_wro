@@ -1,0 +1,36 @@
+[00:00:01.185] Server  LOG     ✓ Ready in 706ms
+[00:00:01.785] Server  WARN    Image with src "/images/photos/place.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:01.817] Server  WARN    Image with src "/images/offer/massage.webp" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:01.818] Server  WARN    Image with src "/images/offer/massage-2.webp" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:01.818] Server  WARN    Image with src "/images/offer/massage-3.webp" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:01.822] Server  WARN    Image with src "/images/photos/place.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:01.943] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.040] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.133] Browser WARN    Image with src "/images/photos/place.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:02.133] Browser WARN    Image with src "/images/offer/massage.webp" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:02.133] Browser WARN    Image with src "/images/offer/massage-2.webp" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:02.133] Browser WARN    Image with src "/images/offer/massage-3.webp" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:02.133] Browser WARN    Image with src "/images/photos/place.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:02.235] Browser WARN    Image with src "http://localhost:3000/images/logo.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:03.143] Browser WARN    Image with src "/images/photos/place.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:03.144] Browser WARN    Image with src "http://localhost:3000/images/logo.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:03.144] Browser WARN    Image with src "http://localhost:3000/images/me/main.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:37:01.192] Browser WARN    Image with src "/images/offer/massage.webp" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[22:37:01.192] Browser WARN    Image with src "/images/offer/massage-3.webp" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[22:37:01.192] Browser WARN    Image with src "/images/offer/massage-2.webp" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[22:38:19.706] Server  LOG     ✓ Compiled in 52ms
+[22:41:05.266] Browser WARN    Image with src "http://localhost:3000/images/me/main.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

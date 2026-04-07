@@ -1,0 +1,171 @@
+{
+    "commons": {
+        "loading": "Wczytywanie...",
+        "back": "Powrót",
+        "backToTop": "Powrót na górę",
+        "viewDetails": "Zobacz szczegóły",
+        "home":"Strona główna"
+    },
+    "buttons": {
+        "previous": "Poprzedni",
+        "next": "Następny"
+    },
+    "notFound": {
+        "title": "Nie znaleziono strony",
+        "description": "Strona, której szukasz, nie istnieje lub została przeniesiona."
+    },
+    "navigation": {
+        "home": "Strona główna",
+        "aboutMe": "O mnie",
+        "contact": "Kontakt",
+        "prices": "Cennik",
+        "offer": "Oferta" 
+    },
+    "footer": {
+        "allRightsReserved": "Wszelkie prawa zastrzeżone.",
+        "followMe": "Śledź mnie w mediach społecznościowych",
+        "authorPage": "Strona stworzona przez"
+    },
+    "mobileHeader": {
+        "openMenu": "Menu",
+        "closeMenu": "Zamknij"
+    },
+    "homePage": {
+        "sectionFirst": {
+            "title": "Masaż - czym jest i dlaczego warto go wybrać?",
+            "description": "Masaż to skuteczny sposób na redukcję napięcia mięśniowego, zmniejszenie stresu i poprawę samopoczucia. Pomaga rozluźnić ciało, wspiera regenerację oraz przynosi ulgę przy przeciążeniach wynikających z codziennego życia, pracy siedzącej czy aktywności fizycznej.",
+            "description2": "Podczas zabiegu skupiamy się na indywidualnych potrzebach organizmu - od głębokiego rozluźnienia, przez pracę z napiętymi mięśniami, aż po poprawę komfortu ruchu i ogólnego odprężenia. Masaż może wspierać zarówno regenerację, jak i profilaktykę przeciążeń.",
+            "description3": "To chwila tylko dla Ciebie - na wyciszenie, odzyskanie lekkości i lepsze samopoczucie.",
+            "buttonLabel": "Sprawdź pełną ofertę",
+            "buttonAriaLabel": "Przejdź do oferty masaży"
+        },
+        "aboutMe": {
+            "title": "Poznajmy się!",
+            "description": "Jestem dyplomowanym technikiem masażystą i od trzech lat zawodowo pracuję z osobami zmagającymi się z bólem, napięciami mięśniowymi oraz ograniczeniami ruchu wynikającymi z przeciążeń, stresu i siedzącego trybu życia.",
+            "buttonLabel": "Dowiedz się więcej",
+            "buttonAriaLabel": "Przejdź do sekcji o mnie"
+        },
+        "offer": {
+            "title": "Sprawdź moją ofertę",
+            "offer1": {
+                "title": "Masaż przeciwbólowy pleców"
+            },
+            "offer2": {
+                "title": "Masaż tkanek głębokich"
+            },
+            "offer3": {
+                "title": "Masaż kompleksowy"
+            },
+            "offer4": {
+                "title": "Masaż relaksacyjny"
+            },
+            "offer5": {
+                "title": "Masaż sportowy"
+            },
+            "offer6": {
+                "title": "Masaż klasyczny całego ciała"
+            }
+        },
+        "metadata": {
+            "title": "Profesjonalny masaż",
+            "description": "Odkryj korzyści płynące z profesjonalnego masażu we Wrocławiu. Oferuję różnorodne techniki masażu, które pomagają w redukcji bólu, poprawie ruchomości oraz ogólnym samopoczuciu. Poznaj moją ofertę i wybierz idealną terapię dla siebie."
+        }
+    },
+    "aboutMePage": {
+        "title": "O mnie",
+        "subtitle": "Cześć, jestem Mateusz",
+        "description1": "Jestem dyplomowanym technikiem masażystą i od trzech lat zawodowo pracuję z osobami zmagającymi się z bólem, napięciami mięśniowymi oraz ograniczeniami ruchu wynikającymi z przeciążeń, stresu i siedzącego trybu życia.",
+        "description2": "Na co dzień pracuję zarówno ze sportowcami, jak i osobami wykonującymi pracę biurową oraz klientami starszymi, dzięki czemu rozumiem różne potrzeby organizmu i potrafię dopasować terapię do konkretnego przypadku. Każde spotkanie traktuję indywidualnie — nie pracuję schematem, lecz kieruję się rzeczywistym stanem tkanek i reakcją ciała w trakcie terapii.",
+        "description3": "Ukończyłem szkolenia z zakresu terapii manualnej oraz chiropraktyki, co pozwala mi patrzeć na ciało całościowo i pracować nie tylko w miejscu bólu, ale przede wszystkim nad jego przyczyną. W swojej pracy łączę techniki masażu tkanek głębokich, terapii manualnej oraz pracy powięziowej, aby przywracać naturalną ruchomość i zmniejszać przewlekłe napięcia.",
+        "description4": "Moim celem jest realna poprawa funkcjonowania ciała — zmniejszenie bólu, większa swoboda ruchu oraz odczuwalna lekkość w codziennym życiu już po pierwszych spotkaniach.",
+        "metadata": {
+            "title": "O mnie - masażysta we Wrocławiu",
+            "description": "Poznaj Mateusza, doświadczonego masażystę we Wrocławiu, który specjalizuje się w terapii manualnej i masażu tkanek głębokich. Dowiedz się więcej o jego podejściu do pracy z ciałem, doświadczeniu oraz filozofii terapii, która skupia się na indywidualnych potrzebach każdego klienta."
+        }
+    },
+    "pricesPage": {
+        "title": "Cennik",
+        "description": "Oferuję różnorodne masaże dostosowane do Twoich potrzeb. Poniżej znajdziesz szczegółowy cennik moich usług, który pomoże Ci wybrać odpowiednią terapię dla siebie. Poniższe ceny dotyczą pojedynczej sesji masażu, a czas trwania i zakres usług są dostosowane do indywidualnych potrzeb klienta. Zapraszam do zapoznania się z ofertą i wyboru masażu, który najlepiej odpowiada Twoim oczekiwaniom.",
+        "massage1": "Masaż przeciwbólowy pleców",
+        "massage2": "Masaż tkanek głębokich",
+        "massage3": "Masaż kompleksowy – głęboki relaks i regeneracja",
+        "massage4": "Masaż relaksacyjny",
+        "massage5": "Masaż klasyczny całego ciała",
+        "massage6": "Masaż sportowy",
+        "table": {
+            "service": "Usługa"
+        },
+        "metadata": {
+            "title": "Cennik masaży ",
+            "description": "Sprawdź cennik masaży oferowanych przez Mateusza - profesjonalnego masażystę we Wrocławiu. Oferujemy różnorodne masaże dostosowane do Twoich potrzeb, w tym masaż przeciwbólowy pleców, masaż tkanek głębokich, masaż kompleksowy, masaż relaksacyjny, masaż klasyczny całego ciała oraz masaż sportowy. Zapoznaj się z naszym cennikiem i wybierz idealną terapię dla siebie."
+        }
+    },
+    "offerPage": {
+        "title": "Oferta",
+        "description": "Oferuję szeroki zakres masaży, które są dostosowane do indywidualnych potrzeb każdego klienta. Moja oferta obejmuje zarówno masaże relaksacyjne, jak i terapeutyczne, które pomagają w redukcji bólu, poprawie ruchomości oraz ogólnym samopoczuciu. Poniżej znajdziesz szczegółowy opis poszczególnych rodzajów masaży, które oferuję, wraz z informacjami o ich korzyściach i wskazaniach do stosowania. Zapraszam do zapoznania się z moją ofertą i wyboru masażu, który najlepiej odpowiada Twoim potrzebom.",
+        "data": {
+            "massage1": {
+                "title": "Masaż przeciwbólowy pleców",
+                "description": "Terapia ukierunkowana na zmniejszenie bólu oraz napięć w obrębie pleców, karku i barków. Zabieg pomaga rozluźnić przeciążone mięśnie, poprawić ruchomość oraz przywrócić komfort w codziennym funkcjonowaniu. Polecany szczególnie osobom pracującym przy biurku, odczuwającym sztywność lub nawracające bóle kręgosłupa."
+            },
+            "massage2": {
+                "title": "Masaż tkanek głębokich",
+                "description": "Intensywna praca z głębszymi warstwami mięśni i powięzi, mająca na celu uwolnienie przewlekłych napięć oraz poprawę zakresu ruchu. Masaż wykonywany w tempie dostosowanym do reakcji organizmu, aby osiągnąć trwałe efekty terapeutyczne."
+            },
+            "massage3": {
+                "title": "Masaż kompleksowy",
+                "description": "Całościowa praca z ciałem łącząca elementy terapii i relaksu. Zabieg pomaga zmniejszyć napięcia nagromadzone w całym organizmie, poprawia krążenie oraz wspiera regenerację fizyczną i psychiczną."
+            },
+            "massage4": {
+                "title": "Masaż relaksacyjny",
+                "description": "Delikatniejsza forma masażu skoncentrowana na odprężeniu i redukcji stresu. Pomaga wyciszyć układ nerwowy, rozluźnić ciało oraz odzyskać poczucie lekkości i równowagi."
+            },
+            "massage5": {
+                "title": "Masaż klasyczny całego ciała",
+                "description": "Uniwersalny masaż poprawiający krążenie, elastyczność mięśni oraz ogólne samopoczucie. Idealny zarówno profilaktycznie, jak i jako regularne wsparcie regeneracji organizmu."
+            },
+            "massage6": {
+                "title": "Masaż sportowy",
+                "description": "Masaż przeznaczony dla osób aktywnych fizycznie, wspierający regenerację po wysiłku oraz przygotowanie mięśni do treningu. Pomaga zmniejszyć przeciążenia, poprawić mobilność i przyspieszyć powrót do pełnej sprawności."
+            }
+        },
+        "metadata": {
+            "title": "Oferta masaży",
+            "description": "Poznaj ofertę masaży oferowanych przez Mateusza - doświadczonego masażystę we Wrocławiu. Oferujemy różnorodne masaże dostosowane do Twoich potrzeb, w tym masaż przeciwbólowy pleców, masaż tkanek głębokich, masaż kompleksowy, masaż relaksacyjny, masaż klasyczny całego ciała oraz masaż sportowy. Zapoznaj się z naszą ofertą i wybierz idealną terapię dla siebie."
+        }
+    },
+    "contactPage": {
+        "title": "Kontakt",
+        "subtitle": "Skontaktuj się ze mną",
+        "description": "Skontaktuj się ze mną, aby umówić się na masaż lub uzyskać więcej informacji o mojej ofercie. Jestem dostępny pod telefonem, e-mailem oraz poprzez formularz kontaktowy na stronie. Chętnie odpowiem na wszystkie pytania i pomogę wybrać odpowiednią terapię dostosowaną do Twoich potrzeb. Zapraszam do kontaktu i umówienia się na sesję masażu, która przyniesie ulgę i poprawi Twoje samopoczucie.",
+        "phoneLabel": "Telefon",
+        "emailLabel": "E-mail",
+        "metadata": {
+            "title": "Kontakt - masażysta we Wrocławiu",
+            "description": "Skontaktuj się z Mateuszem, doświadczonym masażystą we Wrocławiu, aby umówić się na masaż lub uzyskać więcej informacji o jego ofercie. Jest dostępny pod telefonem, e-mailem oraz poprzez formularz kontaktowy na stronie. Chętnie odpowie na wszystkie pytania i pomoże wybrać odpowiednią terapię dostosowaną do Twoich potrzeb. Zapraszamy do kontaktu i umówienia się na sesję masażu, która przyniesie ulgę i poprawi Twoje samopoczucie."
+        }
+    },
+    "qna": {
+        "title": "Najczęściej zadawane pytania",
+        "first": {
+            "question": "Czy masaż jest bezpieczny dla każdego?",
+            "answer": "Masaż jest generalnie bezpieczny dla większości osób, jednak istnieją pewne przeciwwskazania, takie jak aktywne infekcje, stany zapalne, choroby skóry czy niektóre schorzenia serca. Przed umówieniem się na masaż warto skonsultować się z terapeutą, aby omówić swoje zdrowie i ewentualne ograniczenia."
+        },
+        "second": {
+            "question": "Jak często powinienem korzystać z masażu?",
+            "answer": "Częstotliwość masażu zależy od indywidualnych potrzeb i celów. Osoby z przewlekłymi napięciami lub bólem mogą potrzebować regularnych sesji co 1-2 tygodnie, podczas gdy inni mogą korzystać z masażu okazjonalnie, np. raz w miesiącu, dla relaksu i regeneracji."
+        },
+        "third": {
+            "question": "Czy masaż może pomóc w redukcji stresu?",
+            "answer": "Tak, masaż jest skutecznym sposobem na redukcję stresu. Poprzez stymulację układu nerwowego, masaż pomaga obniżyć poziom kortyzolu (hormonu stresu) i zwiększyć produkcję endorfin, co prowadzi do poprawy samopoczucia i głębokiego relaksu."
+        },
+        "fourth": {
+            "question": "Czy masaż jest bolesny?",
+            "answer": "Masaż nie powinien być bolesny, jednak podczas pracy z głębszymi warstwami mięśni lub przy rozluźnianiu przewlekłych napięć może pojawić się uczucie dyskomfortu. Terapeuta zawsze dostosowuje siłę nacisku do indywidualnych potrzeb i reakcji klienta, aby zapewnić komfort i skuteczność terapii."
+        },
+        "fifth": {
+            "question": "Jakie są korzyści z masażu?",
+            "answer": "Masaż przynosi wiele korzyści, takich jak redukcja bólu, poprawa krążenia, zwiększenie elastyczności mięśni, redukcja stresu oraz ogólna poprawa samopoczucia. Regularne sesje masażu mogą wspierać regenerację organizmu, poprawiać jakość snu i zwiększać energię."
+        }
+    }
+}

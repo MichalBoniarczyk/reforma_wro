@@ -1,0 +1,1 @@
+export const BNR_FLOW = 'https://bnrflow.dev';

@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file:///Users/michal/Desktop/projects/reforma/reforma/components/Pages/Home/index.tsx"],"sourcesContent":["import HeroHomePage from \"./Hero\";\n\nconst HomePage = () => {\n\n    return (\n        <>\n            <p>hello Reforma!</p>\n            <HeroHomePage />\n        </>\n    )\n}\n\nexport default HomePage;"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,WAAW;IAEb,qBACI;;0BACI,2RAAC;0BAAE;;;;;;0BACH,2RAAC,qMAAY;;;;;;;AAGzB;uCAEe"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///Users/michal/Desktop/projects/reforma/reforma/app/page.tsx"],"sourcesContent":["import HomePage from \"@/components/Pages/Home\";\nimport Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <HomePage />\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACtB,qBACE,2RAAC,6LAAQ;;;;;AAEb"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/michal/Desktop/projects/reforma/reforma/components/Pages/Home/index.tsx"],"sourcesContent":["const HomePage = () => {\n\n    return (\n        <p>hello Reforma!</p>\n    )\n}\n\nexport default HomePage;"],"names":[],"mappings":";;;;;;AAAA,MAAM,WAAW;IAEb,qBACI,2RAAC;kBAAE;;;;;;AAEX;uCAEe"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file:///Users/michal/Desktop/projects/reforma/reforma/app/page.tsx"],"sourcesContent":["import HomePage from \"@/components/Pages/Home\";\nimport Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <HomePage />\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACtB,qBACE,2RAAC,6LAAQ;;;;;AAEb"}}]
+}
