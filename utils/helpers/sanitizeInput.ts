@@ -20,21 +20,6 @@ export const sanitizeInput = (value: string, inputType: FormInputType): string =
             return value
                 .replace(/<script[^>]*>.*?<\/script>/gi, '')
                 .replace(/[<>{}]/g, '');
-        case FormInputType.SEARCH:
-            return value
-                .replace(/[<>()[\]\\,;:\s"]/g, '')
-                .replace(/[^a-zA-Z0-9@._+-]/g, '')
-                .substring(0, 100);
-        case FormInputType.LOGIN:
-            return value
-                .replace(/[<>()[\]\\,;:\s"]/g, '')
-                .replace(/[^a-zA-Z0-9@._+-]/g, '')
-                .substring(0, 50);
-        case FormInputType.PASSWORD:
-            return value
-                .replace(/<script[^>]*>.*?<\/script>/gi, '')
-                .substring(0, 50);
-                
         default:
             return value.replace(/[<>]/g, '');
     }
