@@ -2,7 +2,6 @@
 
 import React from "react";
 
-import { ComponentOrNull } from "@/utils/types/commons";
 
 type Props = {
     isActive: boolean
@@ -10,7 +9,7 @@ type Props = {
     onKeyDown?: (event: React.KeyboardEvent<HTMLDivElement>) => void
 }
 
-const Blackout = ({ isActive, onClick, onKeyDown }: Props): ComponentOrNull => {
+const Blackout = ({ isActive, onClick, onKeyDown }: Props) => {
 
     if (!isActive) {
         return null;
