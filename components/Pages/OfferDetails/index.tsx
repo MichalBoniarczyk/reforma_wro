@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import OfferSchema from "./Schema";
 import QandA from "@/components/Layout/QandA";
 import Breadcrumb from "@/components/Features/Breadcrumb";
+import { notFound } from "next/navigation";
 
 type Props = {
     category: string;
@@ -50,14 +51,18 @@ const OfferDetailsPage = ({category}: Props) => {
         }
     ].find(item => item.slug === `/${category}`);
 
+    if (!data) {
+        notFound();
+    }
+
     return (
         <>
-            <OfferSchema title={data?.title} description={data?.description} />
+            <OfferSchema title={data.title} description={data.description} />
             <div>
                 <HeaderBannerPage title={data.title} imagePath="/images/photos/place.jpg" />
                 <Breadcrumb />
                 <section className="pt-12 md:pt-20 pb-4 md:pb-8 w-full md:w-[80%] mx-auto px-8 md:px-0">
-                    <p>{data?.description}</p>
+                    <p>{data.description}</p>
                 </section>
                 <section className="w-full px-8 md:px-0 py-6 md:py-12 bg-gray-100 dark:bg-neutral-900">
                     <div className="md:w-[80%] md:mx-auto">
