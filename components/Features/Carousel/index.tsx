@@ -1,71 +1,48 @@
-'use client'
-import { FC, MouseEvent, TouchEvent, useCallback, useRef, useState } from "react";
-import Carousel from "./Carousel";
+import { useEffect, useState } from 'react';
 
 type Props = {
-    data: unknown[]
-    selectedItem: number
-    setSelectedItem: (item: number) => void
+  carouselRef: React.RefObject<HTMLDivElement>;
 }
 
-const CarouselContainer: FC<Props> = ({
-    data,
-    selectedItem,
-    setSelectedItem
-}) => {
-    const carouselRef = useRef<HTMLDivElement>(null)
-    const [isTransitioning, setIsTransitioning] = useState(false)
-    
-    const onNext = useCallback((e: MouseEvent | TouchEvent<HTMLButtonElement>) => {
-        if (selectedItem > data.length - 1) {
-            return
-        }
-        
-        setIsTransitioning(true)
-        
-        setTimeout(() => {
-            setSelectedItem(prevState => prevState + 1)
-            
-            setTimeout(() => {
-                setIsTransitioning(false)
-            }, 500)
+const useDetectVisibility = ({ carouselRef }: Props) => {
+  const [visibility, setVisibility] = useState({
+    firstChildVisible: false,
+    lastChildVisible: false,
+  });
 
-        }, 500)
-    }, [selectedItem, data.length, setSelectedItem])
+  useEffect(() => {
+    if (!carouselRef.current) return;
 
-    const onPrev = useCallback((e: MouseEvent | TouchEvent<HTMLButtonElement>) => {
-        e.preventDefault()
-        
-        if (selectedItem <= 0) {
-            return
-        }
+    const observerOptions = {
+      root: carouselRef.current,
+      threshold: 0.9
+    };
 
-        setIsTransitioning(true)
+    const firstChild = carouselRef.current.firstElementChild;
+    const lastChild = carouselRef.current.lastElementChild;
 
-        setTimeout(() => {
-            setSelectedItem(prevState => prevState - 1)
-            
-            setTimeout(() => {
-                setIsTransitioning(false)
-            }, 300)
-            
-        }, 300)
-        
-    }, [selectedItem, setSelectedItem])
+    const observerCallback = (entries: IntersectionObserverEntry[]): void => {
+      entries.forEach((entry: IntersectionObserverEntry) => {
+      if (entry.target === firstChild) {
+        setVisibility(prev => ({ ...prev, firstChildVisible: entry.isIntersecting }));
+      } else if (entry.target === lastChild) {
+        setVisibility(prev => ({ ...prev, lastChildVisible: entry.isIntersecting }));
+      }
+      });
+    };
 
-    const props = {
-        data,
-        carouselRef,
-        isTransitioning,
-        activeElem: selectedItem,
-        isLeftArrowArrowVisible: selectedItem > 1,
-        isRightArrowArrowVisible: selectedItem <= data.length - 1,
-        arrowClasses: 'absolute top-1/2 -translate-y-1/2 rounded-full bg-white/40 hover:bg-white size-10 sm:size-12 transition duration-400 hover:bg-white hover:shadow-md z-10',
-        onNext,
-        onPrev
-    }
-    
-    return <Carousel {...props} />
-}
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
 
-export default CarouselContainer
+    if (firstChild) observer.observe(firstChild);
+    if (lastChild) observer.observe(lastChild);
+
+    return () => {
+      if (firstChild) observer.unobserve(firstChild);
+      if (lastChild) observer.unobserve(lastChild);
+    };
+  }, [carouselRef]);
+
+  return visibility;
+};
+
+export default useDetectVisibility;
