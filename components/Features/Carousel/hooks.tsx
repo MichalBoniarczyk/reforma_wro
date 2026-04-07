@@ -18,10 +18,10 @@ const useDetectVisibility = ({ carouselRef }: Props) => {
       threshold: 0.9
     };
 
-    const firstChild = carouselRef.current.firstChild;
-    const lastChild = carouselRef.current.lastChild;
+    const firstChild = carouselRef.current.firstElementChild;
+    const lastChild = carouselRef.current.lastElementChild;
 
-    const observerCallback = (entries, observer) => {
+    const observerCallback = (entries: IntersectionObserverEntry[], observer: IntersectionObserver) => {
       entries.forEach(entry => {
         if (entry.target === firstChild) {
           setVisibility(prev => ({ ...prev, firstChildVisible: entry.isIntersecting }));
