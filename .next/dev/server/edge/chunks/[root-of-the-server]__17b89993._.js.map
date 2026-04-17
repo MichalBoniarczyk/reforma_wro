@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/projects/reforma/reforma/middleware.ts"],"sourcesContent":["import { NextRequest } from \"next/server\";\nimport { handleLocaleDetection, intlMiddleware } from \"./lib/middlewares/intl\";\n\nexport default function middleware(request: NextRequest) {\n  const detectionResponse = handleLocaleDetection(request);\n  if (detectionResponse) return detectionResponse;\n\n  return intlMiddleware(request);\n}\n\nexport const config = {\n  matcher: ['/', '/((?!api|_next|_vercel|.*\\\\..*).*)'],\n};"],"names":[],"mappings":";;;;;;;;;;;;AAGe,SAAS,WAAW,OAAoB;IACrD,MAAM,oBAAoB,sBAAsB;IAChD,IAAI,mBAAmB,OAAO;IAE9B,OAAO,eAAe;AACxB;AAEO,MAAM,SAAS;IACpB,SAAS;QAAC;QAAK;KAAqC;AACtD"}}]
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
-    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file:///Users/michal/Desktop/projects/reforma/reforma/app/cennik/page.tsx"],"sourcesContent":["import PricesPage from \"@/components/Pages/Prices\"\n\nconst Prices = () => {\n\n    return <PricesPage />\n}\n\nexport default Prices;"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,SAAS;IAEX,qBAAO,2RAAC,+LAAU;;;;;AACtB;uCAEe"}}]
-}
