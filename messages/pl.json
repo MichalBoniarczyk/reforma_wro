@@ -67,7 +67,7 @@
             }
         },
         "metadata": {
-            "title": "Profesjonalny masaż",
+            "title": "Masaż Wrocław - Reforma",
             "description": "Odkryj korzyści płynące z profesjonalnego masażu we Wrocławiu. Oferuję różnorodne techniki masażu, które pomagają w redukcji bólu, poprawie ruchomości oraz ogólnym samopoczuciu. Poznaj moją ofertę i wybierz idealną terapię dla siebie."
         }
     },
@@ -79,7 +79,7 @@
         "description3": "Ukończyłem szkolenia z zakresu terapii manualnej oraz chiropraktyki, co pozwala mi patrzeć na ciało całościowo i pracować nie tylko w miejscu bólu, ale przede wszystkim nad jego przyczyną. W swojej pracy łączę techniki masażu tkanek głębokich, terapii manualnej oraz pracy powięziowej, aby przywracać naturalną ruchomość i zmniejszać przewlekłe napięcia.",
         "description4": "Moim celem jest realna poprawa funkcjonowania ciała — zmniejszenie bólu, większa swoboda ruchu oraz odczuwalna lekkość w codziennym życiu już po pierwszych spotkaniach.",
         "metadata": {
-            "title": "O mnie - masażysta we Wrocławiu",
+            "title": "Masażysta we Wrocławiu",
             "description": "Poznaj Mateusza, doświadczonego masażystę we Wrocławiu, który specjalizuje się w terapii manualnej i masażu tkanek głębokich. Dowiedz się więcej o jego podejściu do pracy z ciałem, doświadczeniu oraz filozofii terapii, która skupia się na indywidualnych potrzebach każdego klienta."
         }
     },
@@ -101,7 +101,7 @@
         }
     },
     "offerPage": {
-        "title": "Oferta",
+        "title": "Masaże Wrocław",
         "description": "Oferuję szeroki zakres masaży, które są dostosowane do indywidualnych potrzeb każdego klienta. Moja oferta obejmuje zarówno masaże relaksacyjne, jak i terapeutyczne, które pomagają w redukcji bólu, poprawie ruchomości oraz ogólnym samopoczuciu. Poniżej znajdziesz szczegółowy opis poszczególnych rodzajów masaży, które oferuję, wraz z informacjami o ich korzyściach i wskazaniach do stosowania. Zapraszam do zapoznania się z moją ofertą i wyboru masażu, który najlepiej odpowiada Twoim potrzebom.",
         "data": {
             "massage1": {

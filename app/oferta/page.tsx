@@ -8,7 +8,7 @@ import { getTranslations } from "next-intl/server";
 const canonical = encodeURI(`${baseUrl}${OFFER_PATH}`);
 
 export async function generateMetadata(): Promise<Metadata> {
-    const t = await getTranslations("aboutMePage.metadata");
+    const t = await getTranslations("offerPage.metadata");
 
   return {
     title: `${t('title')} | ${SEO_CONFIG.siteName}`,

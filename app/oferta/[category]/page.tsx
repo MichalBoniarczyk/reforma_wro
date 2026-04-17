@@ -6,16 +6,20 @@ import { baseUrl, SEO_CONFIG } from "@/utils/consts/seo";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
-const canonical = encodeURI(`${baseUrl}${OFFER_PATH}`);
+type OfferCategoryParams = Promise<{ category: string }>;
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: OfferCategoryParams }): Promise<Metadata> {
+    const { category } = await params;
     const t = await getTranslations("aboutMePage.metadata");
+  const formattedCategory = category.replace(/-/g, ' ');
+  const title = formattedCategory.charAt(0).toUpperCase() + formattedCategory.slice(1);
+    const canonical = encodeURI(`${baseUrl}${OFFER_PATH}/${category}`);
 
   return {
-    title: `${t('title')} | ${SEO_CONFIG.siteName}`,
+    title: `${title} | ${SEO_CONFIG.siteName}`,
     description: t('description'),
     openGraph: {
-      title: `${t('title')} | ${SEO_CONFIG.siteName}`,
+      title: `${title} | ${SEO_CONFIG.siteName}`,
       description: t('description'),
       type: "article",
       siteName: SEO_CONFIG.siteName,
@@ -32,8 +36,8 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const Offer = async ({ params }: { params: { category: string } }) => {
-    const { category } =  await params;
+const Offer = async ({ params }: { params: OfferCategoryParams }) => {
+    const { category } = await params;
 
     return <OfferDetailsPage category={category} />
 }
