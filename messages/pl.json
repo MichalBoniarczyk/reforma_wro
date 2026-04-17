@@ -72,7 +72,7 @@
         }
     },
     "aboutMePage": {
-        "title": "O mnie",
+        "title": "Masażysta we Wrocławiu",
         "subtitle": "Cześć, jestem Mateusz",
         "description1": "Jestem dyplomowanym technikiem masażystą i od trzech lat zawodowo pracuję z osobami zmagającymi się z bólem, napięciami mięśniowymi oraz ograniczeniami ruchu wynikającymi z przeciążeń, stresu i siedzącego trybu życia.",
         "description2": "Na co dzień pracuję zarówno ze sportowcami, jak i osobami wykonującymi pracę biurową oraz klientami starszymi, dzięki czemu rozumiem różne potrzeby organizmu i potrafię dopasować terapię do konkretnego przypadku. Każde spotkanie traktuję indywidualnie — nie pracuję schematem, lecz kieruję się rzeczywistym stanem tkanek i reakcją ciała w trakcie terapii.",
@@ -84,7 +84,7 @@
         }
     },
     "pricesPage": {
-        "title": "Cennik",
+        "title": "Cennik masaży Wrocław",
         "description": "Oferuję różnorodne masaże dostosowane do Twoich potrzeb. Poniżej znajdziesz szczegółowy cennik moich usług, który pomoże Ci wybrać odpowiednią terapię dla siebie. Poniższe ceny dotyczą pojedynczej sesji masażu, a czas trwania i zakres usług są dostosowane do indywidualnych potrzeb klienta. Zapraszam do zapoznania się z ofertą i wyboru masażu, który najlepiej odpowiada Twoim oczekiwaniom.",
         "massage1": "Masaż przeciwbólowy pleców",
         "massage2": "Masaż tkanek głębokich",
@@ -137,7 +137,7 @@
     "contactPage": {
         "title": "Kontakt",
         "subtitle": "Skontaktuj się ze mną",
-        "description": "Skontaktuj się ze mną, aby umówić się na masaż lub uzyskać więcej informacji o mojej ofercie. Jestem dostępny pod telefonem, e-mailem oraz poprzez formularz kontaktowy na stronie. Chętnie odpowiem na wszystkie pytania i pomogę wybrać odpowiednią terapię dostosowaną do Twoich potrzeb. Zapraszam do kontaktu i umówienia się na sesję masażu, która przyniesie ulgę i poprawi Twoje samopoczucie.",
+        "description": "Skontaktuj się ze mną, aby umówić się na masaż lub uzyskać więcej informacji o mojej ofercie we Wrocławiu. Jestem dostępny pod telefonem, e-mailem oraz poprzez formularz kontaktowy na stronie. Chętnie odpowiem na wszystkie pytania i pomogę wybrać odpowiednią terapię dostosowaną do Twoich potrzeb. Zapraszam do kontaktu i umówienia się na sesję masażu we Wrocławiu, która przyniesie ulgę i poprawi Twoje samopoczucie.",
         "phoneLabel": "Telefon",
         "emailLabel": "E-mail",
         "metadata": {
