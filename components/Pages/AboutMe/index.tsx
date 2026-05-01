@@ -11,12 +11,17 @@ const AboutMePage = () => {
         <>
             <AboutMeSchema title={t('title')} description={t('description1')} />
             <HeaderBannerPage title={t('title')} imagePath="/images/photos/place.jpg" />
-            <section className="py-12 md:py-20 w-full md:w-[80%] mx-auto px-8 md:px-0 flex flex-col md:flex-row items-center gap-8">
-                <Image src="/images/me/main.webp" alt="O mnie" width={400} height={600} className="rounded-lg mb-8" />
+            <section className="py-12 md:py-20 w-full md:w-[80%] mx-auto px-8 md:px-0">
+                <div className="py-4 md:py-8 mx-auto flex flex-col md:flex-row items-center gap-8"> 
+                    <Image src="/images/me/main-3.webp" alt="Masażysta Wrocław" width={620} height={820} className="" />
+                    <article>
+                        <h2 className="font-semibold text-5xl">{t('subtitle')}</h2>
+
+                    </article>
+                </div>
                 <article>
-                    <h2 className="font-semibold text-2xl md:text-3xl">{t('subtitle')}</h2>
                     <p className="py-4 text-gray-700 dark:text-gray-300 text-md md:text-lg font-news leading-relaxed">
-                    {t('description1')}
+                        {t('description1')}
                     </p>
                     <p className="py-4 text-gray-700 dark:text-gray-300 text-md md:text-lg font-news leading-relaxed">
                         {t('description2')}
@@ -28,7 +33,7 @@ const AboutMePage = () => {
                         {t('description4')}
                     </p>
                 </article>
-            </section>
+                </section>
             <Opinions />
         </>    
     )

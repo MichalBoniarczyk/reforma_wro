@@ -7,6 +7,7 @@ import BannerOfferHomePage from "../Home/BannerOffer";
 import QandA from "@/components/Layout/QandA";
 import clsx from "clsx";
 import PricesSchema from "./Schema";
+import BookButton from "@/components/UI/Button/Book";
 
 const PricesPage = () => {
     const t = useTranslations('pricesPage');
@@ -72,7 +73,7 @@ const PricesPage = () => {
         <>
             <PricesSchema title={t('title')} description={t('description')} />
             <HeaderBannerPage title={t('title')} imagePath="/images/photos/place.jpg" />
-            <section className="py-12 md:py-20 w-full md:w-[80%] mx-auto px-8 md:px-0 ">
+            <section className="pt-12 md:pt-20 w-full md:w-[80%] mx-auto px-8 md:px-0 ">
                 <section className="mb-10">
                     <p className="text-gray-700 dark:text-gray-300 text-md md:text-lg font-news leading-relaxed">
                         {t('description')}
@@ -101,6 +102,9 @@ const PricesPage = () => {
                     </table>
                 </div>                
             </section>
+            <div className="py-4 md:py-12 flex items-center justify-center">
+                <BookButton urlBook="/kontakt" />
+            </div>
             <section className="w-full px-8 md:px-0 py-6 md:py-12 bg-gray-100 dark:bg-neutral-900">
                 <div className="md:w-[80%] md:mx-auto">
                     <QandA />
