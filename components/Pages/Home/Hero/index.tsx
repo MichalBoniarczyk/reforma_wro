@@ -17,7 +17,7 @@ const HeroHomePage = () => {
         
         <div className="absolute inset-0 bg-black/50 dark:bg-black/60 z-1"></div>
         <BannerContent title="Masaż Wrocław" subtitle="Profesjonalny masaż we Wrocławiu, który pomaga rozluźnić napięte mięśnie, zmniejszyć stres i zadbać o regenerację" />
-        <LinkHome href={RESERVATION_PATH} arialLabel="Rezerwacja" type={LinksStyleType.red} wrapperStyle="mt-6 z-10">
+        <LinkHome href={RESERVATION_PATH} arialLabel="Rezerwacja" type={LinksStyleType.red} wrapperStyle="mt-6 z-10" isBlank="_blank">
             Rezerwacja
         </LinkHome>
      </div> 

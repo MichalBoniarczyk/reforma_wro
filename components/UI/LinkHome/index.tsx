@@ -9,6 +9,7 @@ type Props = {
     readonly arialLabel?: string;
     readonly type?: LinksStyleType;
     readonly wrapperStyle?: string;
+    readonly isBlank?: string;
     readonly children: React.ReactNode;
 }
 
@@ -17,6 +18,7 @@ const LinkHome: React.FC<Props> = ({
     arialLabel,
     type,
     wrapperStyle,
+    isBlank = '',
     children
 }) => {
 
@@ -38,7 +40,7 @@ const LinkHome: React.FC<Props> = ({
 
     return (
         <div className={clsx("w-full flex justify-center items-center", wrapperStyle)}>
-            <Link href={href} aria-label={arialLabel} className={clsx('px-6 py-2 rounded-xl text-sm font-semibold transition duration-600 ease-in-out uppercase flex items-center justify-center gap-2', style)}>
+            <Link href={href} target={isBlank} aria-label={arialLabel} className={clsx('px-6 py-2 rounded-xl text-sm font-semibold transition duration-600 ease-in-out uppercase flex items-center justify-center gap-2', style)}>
                 {children}
             </Link>
         </div>

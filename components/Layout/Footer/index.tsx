@@ -12,7 +12,6 @@ export default function Footer() {
       <div className="mb-8"> 
         <h3 className="text-white mb-2 text-sm font-semibold">{t('followMe')}</h3>
         <div className="flex gap-3">
-          <FacebookIcon size="text-4xl" />
           <InstagramIcon size="text-4xl" />
         </div>
       </div>

@@ -8,6 +8,7 @@ import QandA from "@/components/Layout/QandA";
 import clsx from "clsx";
 import PricesSchema from "./Schema";
 import BookButton from "@/components/UI/Button/Book";
+import { RESERVATION_PATH } from "@/utils/consts/paths";
 
 const PricesPage = () => {
     const t = useTranslations('pricesPage');
@@ -103,7 +104,7 @@ const PricesPage = () => {
                 </div>                
             </section>
             <div className="py-4 md:py-12 flex items-center justify-center">
-                <BookButton urlBook="/kontakt" />
+                <BookButton urlBook={RESERVATION_PATH} />
             </div>
             <section className="w-full px-8 md:px-0 py-6 md:py-12 bg-gray-100 dark:bg-neutral-900">
                 <div className="md:w-[80%] md:mx-auto">

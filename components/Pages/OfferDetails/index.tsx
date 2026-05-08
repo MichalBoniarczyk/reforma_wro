@@ -5,6 +5,7 @@ import QandA from "@/components/Layout/QandA";
 import Breadcrumb from "@/components/Features/Breadcrumb";
 import { notFound } from "next/navigation";
 import BookButton from "@/components/UI/Button/Book";
+import { RESERVATION_PATH } from "@/utils/consts/paths";
 
 type Props = {
     category: string;
@@ -117,7 +118,7 @@ const OfferDetailsPage = ({category}: Props) => {
                     </ul>
                 </section>
                 <div className="py-12 md:py-20 flex items-center justify-center">
-                    <BookButton urlBook="/kontakt" />
+                    <BookButton urlBook={RESERVATION_PATH} />
                 </div>
                 <section className="w-full px-8 md:px-0 py-6 md:py-12 bg-gray-100 dark:bg-neutral-900">
                     <div className="md:w-[80%] md:mx-auto">
