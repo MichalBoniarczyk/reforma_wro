@@ -10,6 +10,7 @@ export enum PricesTime {
 }
 
 export enum PricesValues {
+    oneHundredSixty = 160,
     oneHundredSeventy = 170,
     twoHundredTwenty = 220,
     twoHunredThirty = 230,

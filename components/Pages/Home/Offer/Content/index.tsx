@@ -1,11 +1,11 @@
 import { useTranslations } from "next-intl"
 
 type Props = {
-    subtitle: string;
+    subtitle?: string;
     title: string;
 }
 
-const Content = ({subtitle, title}: Props) => {
+const Content = ({subtitle = '', title}: Props) => {
     const t = useTranslations('HomePage.mainBanners');
 
     return (

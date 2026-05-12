@@ -35,7 +35,7 @@ const PricesPage = () => {
         {
             title: t('massage3'),
             prices: {
-                price1: `${PricesValues.oneHundredSeventy}`,
+                price1: `${PricesValues.oneHundredSixty}`,
                 price2: `${PricesValues.twoHundredTwenty}`,
                 price3: `${PricesValues.threeHundred}`             
             },
@@ -44,7 +44,7 @@ const PricesPage = () => {
         {
             title: t('massage4'),
             prices: {
-                price1: `${PricesValues.oneHundredSeventy}`,
+                price1: `${PricesValues.oneHundredSixty}`,
                 price2: `${PricesValues.twoHundredTwenty}`,
                 price3: `${PricesValues.threeHundred}`             
             },
@@ -53,7 +53,7 @@ const PricesPage = () => {
         {
             title: t('massage5'),
             prices: {
-                price1: `${PricesValues.oneHundredSeventy}`,
+                price1: `${PricesValues.oneHundredSixty}`,
                 price2: `${PricesValues.twoHundredTwenty}`,
                 price3: `${PricesValues.threeHundred}`             
             },
