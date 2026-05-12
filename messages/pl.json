@@ -21,6 +21,9 @@
         "prices": "Cennik",
         "offer": "Oferta" 
     },
+    "mobileMenu": {
+        "closeMenu": "Zamknij menu"
+    },
     "footer": {
         "allRightsReserved": "Wszelkie prawa zastrzeżone.",
         "followMe": "Śledź mnie w mediach społecznościowych",
